@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF_8"/>
+    <meta name="description" content="  هذا هو مكتبنا العقاري اهلاً بكم في مكتبنا للتسويق العقاري" />    
+      <title> properties</title>
+      <link rel="stylesheet" href="./stayle.css">  
+      
+       <ul class="www">
+        <li><a class="home" href="index.html">home الصفحة الرئيسية</a></li>
+        <li><a class="AboutUs" href="AboutUs.html">AboutUs من نحن </a></li>
+     <li><a class="properties" href="properties.html" > properties العقارات </a></li>
+    </ul>
+    <p class="my-p">REAL ESTATE MARKETING COMPANY</p>
+  </head>
+<body>
+  
+<section class="my-table">
+<div class="continer">
+  <table>
+    <thead>
+   <tr>
+    <th>المدينة </th>
+    <th> تفاصيل </th>
+    <th>الإيجار الشهري</th>
+    <th>إظهار التفاصيل</th>
+    <th>اختيار</th>
+   </tr>
+   </thead>
+    <tbody id="flats">
+        
+    </tbody>
+  </table>
+  <section class="form">
+    <div class="contener">
+        <div class="box">
+            <button class="cancelbtn" id="cancelbtn">X</button>
+
+            <form onsubmit="return false;" method="post" name="myForm" class="myForm">
+
+                <div class="group" style="flex: 100%;"><input class="inp" id="name" type="text"
+                        placeholder="الاسم الكامل باللغة العربية"></div>
+                <div class="group"><input class="inp" id="IDC" type="text"
+                        placeholder="الرقم الوطني(اجباري)"> </div>
+                <div class="group"><input class="inp" id="date" type="date"
+                        placeholder="تاريخ الولادة(اختياري)">
+                </div>
+                <div class="group"><input class="inp" id="phone" type="text"
+                        placeholder="(اختياري)رقم الهاتف"></div>
+                <div class="group"><input class="inp" id="email" type="email"
+                        placeholder="(اختياري)الايميل الشخصي">
+                </div>
+                <label for="txtCaptcha" class="inp " id="refrlpl" style="flex: 100%;"></label>
+                <div class="group"><input class="inp" id="txtCaptcha" type="text"
+                        placeholder=" ادخال الرمز الذي في الاعلى" required> </div>
+                <input type="button" class="inp" id="btnrefresh" value="تحديث" style="flex: 5%;"
+                    onclick="Captcha();" />
+                <input class="inp btn" id="done" type="button" value="done">
+            </form>
+        </div>
+    </div>
+  </section>
+            <div>
+                              <button id="btnsub">متابعة</button>
+                          </div>
+      
+    
+
+ <script src="./myfuntion.js"></script>
+
+ </body>
+</html>
+

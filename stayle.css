@@ -1,0 +1,611 @@
+.my-p {
+    color: rgb(43, 192, 177);
+    font-size: xx-large;
+}
+
+
+.my-table {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.continer {
+
+    width: 80%;
+}
+
+table {
+
+    width: 100%;
+}
+
+table thead {
+    background-color: rgb(68, 227, 203);
+}
+
+table thead tr {
+    height: 60px;
+}
+
+table tbody {
+    background-color: rgb(167, 247, 227)
+}
+
+table tbody tr {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.Text {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Text li {
+    margin: 10px 10px;
+}
+
+.imge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+}
+
+.ooo {
+    display: none;
+}
+
+.home {
+    color: rgb(0, 255, 229);
+    font-size: x-large;
+}
+
+.AboutUs {
+    color: rgb(67, 255, 167);
+    font-size: x-large;
+}
+
+.properties {
+    color: rgb(92, 208, 247);
+    font-size: x-large;
+}
+
+.cancelbtn {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15px;
+    border: none;
+    padding: 2px 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+
+}
+
+.worong {
+    border-color: red;
+}
+
+
+.form {
+    position: absolute;
+    top: 20%;
+    max-width: 100%;
+    left: 5px;
+    transition: 1s;
+    display: none;
+    z-index: 10;
+}
+
+.form .contener {
+    background-color: #31cba2c4;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form .box {
+    width: 50%;
+
+}
+
+.myForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.group {
+    flex: 40%;
+}
+
+.inp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--sec-color);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 18px;
+
+
+}
+/* ---------------- */
+.www {
+    color: rgb(37, 215, 215);
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(199, 35, 35);
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero h4 {
+    font-size: 1.6rem;
+}
+
+.hero {
+    background-color: rgb(190, 231, 225);
+}
+
+table thead tr {
+    height: 40px;
+}
+
+table thead td {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(0, 195, 188)
+}
+
+table td {
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-color: gray;
+    width: 100%;
+    text-align: center;
+    border-spacing: 3px;
+}
+
+
+.information {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: large;
+}
+
+h1 {
+
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.logo {
+    width: 20em;
+    height: 20em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wte {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: black
+}
+
+.tee {
+    color: rgb(4, 189, 165);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wte {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.imge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 250px;
+}
+
+.home {
+    color: rgb(0, 255, 229);
+    font-size: x-large;
+}
+
+.AboutUs {
+    color: rgb(67, 255, 167);
+    font-size: x-large;
+}
+
+.properties {
+    color: rgb(92, 208, 247);
+    font-size: x-large;
+}
+
+.r {
+    color: rgb(25, 190, 168);
+    font-size: 2rem;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(224, 239, 233);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+
+
+
+.homefooter {
+    background-color: var(--sec-color);
+    margin: 0 auto;
+
+}
+
+.homefooter .contener {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.homefooter .box {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+
+}
+
+.homefooter .box a {
+    border: 1px solid var(--maine-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    width: fit-content;
+    height: fit-content;
+}
+
+.homefooter .box a:hover {
+    background-color: var(--maine-color);
+}
+
+
+.features {
+    background-color: white;
+}
+
+.features .contener {
+    padding: 30px;
+    margin: 20px auto;
+
+}
+
+.features .box {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+
+.features-item {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    box-shadow: 8px 4px 10px #80939ce1;
+    overflow: hidden;
+}
+
+.features-item .feature-imge {
+    position: relative;
+    overflow: hidden;
+}
+
+.features-item .feature-imge::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.features-item .feature-imge::after {
+    content: "";
+    position: absolute;
+    transition: 1.5s;
+    bottom: 0%;
+    right: 0%;
+    border-style: solid;
+    border-width: 00px 00px 120px 371px;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+
+}
+
+.features-item .feature-imge:hover:after {
+    border-width: 0px 300px 120px 0px;
+}
+
+
+
+/*  ----------------------- */
+
+.features-item.Quality .feature-imge::before {
+
+    background-color: rgba(26, 188, 233, 0.347);
+
+}
+
+.features-item.time .feature-imge::before {
+
+    background-color: rgba(96, 143, 149, 0.347);
+
+}
+
+.features-item.Passion .feature-imge::before {
+
+    background-color: rgba(13, 227, 153, 0.347);
+
+}
+
+
+.features-item h3 {
+    font-size: 30px;
+    margin: 50px;
+    position: relative;
+}
+
+.features-item h3::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: calc(100% - 80px);
+    left: 40px;
+    bottom: -20px;
+}
+
+.features-item.Quality h3::before {
+
+    background-color: rgb(56, 219, 225);
+}
+
+.features-item.time h3::before {
+    background-color: rgb(76, 107, 122);
+}
+
+.features-item.Passion h3::before {
+
+    background-color: rgb(96, 206, 171);
+}
+
+/* --------------- */
+.my-p {
+    color: rgb(43, 192, 177);
+    font-size: xx-large;
+}
+
+
+.my-table {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.continer {
+
+    width: 80%;
+}
+
+table {
+
+    width: 100%;
+}
+
+table thead {
+    background-color: rgb(68, 227, 203);
+}
+
+table thead tr {
+    height: 60px;
+}
+
+table tbody {
+    background-color: rgb(167, 247, 227)
+}
+
+table tbody tr {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.Text {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Text li {
+    margin: 10px 10px;
+}
+
+.imge {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+}
+
+.ooo {
+    display: none;
+}
+
+.home {
+    color: rgb(0, 255, 229);
+    font-size: x-large;
+}
+
+.AboutUs {
+    color: rgb(67, 255, 167);
+    font-size: x-large;
+}
+
+.properties {
+    color: rgb(92, 208, 247);
+    font-size: x-large;
+}
+
+.cancelbtn {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15px;
+    border: none;
+    padding: 2px 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+
+}
+
+.worong {
+    border-color: red;
+}
+
+
+.form {
+    position: absolute;
+    top: 20%;
+    max-width: 100%;
+    left: 5px;
+    transition: 1s;
+    display: none;
+    z-index: 10;
+}
+
+.form .contener {
+    background-color: #31cba2c4;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form .box {
+    width: 50%;
+
+}
+
+.myForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.group {
+    flex: 40%;
+}
+
+.inp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--sec-color);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 18px;
+
+
+}
